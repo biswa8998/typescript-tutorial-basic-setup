@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var add_1 = require("./add");
+var multiply_1 = require("./utils/multiply");
+var welcomeString = "Hello World! Welcome";
+console.log(welcomeString);
+var a = 100;
+var b = add_1.add(a, a);
+console.log("add(a,a) => ", b);
+var c = multiply_1.multiply(a, b);
+console.log("multiply(a,b) => ", c);
